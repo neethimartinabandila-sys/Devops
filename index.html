@@ -59,11 +59,7 @@
 </body>
 </html> --> 
 
-<<<<<<< HEAD
 <!-- <!DOCTYPE html>
-=======
-<!DOCTYPE html>
->>>>>>> feature-branch
 <html>
 <head>
 <title> NCBI Access Web Tool </title>
@@ -84,11 +80,29 @@
 <button type="submit"> Submit </button> 
 </form>
 </div>
-
-<<<<<<< HEAD
+</body>
 </html> -->
 
- <h1>Hello from Main Branch</h1>
-=======
+<!DOCTYPE html>
+<html>
+    <head>
+       <script src = "https://cdn.tailwindcss.com"></script> 
+    </head>
+<body> 
+
+<button onclick="addItem()" class="bg-blue-400 hover:bg-red-500 text-white">
+    Add Item
+</button>
+
+<div id="container" class="mt-4 px-4 bg-gray-800 rounded">
+    </div>
+    <script>
+        function addItem() {
+            let p =document.createElement('p');
+            p.innerText= 'New Item';
+            document.getElementById('container').appendChild(p);
+        }
+    </script>
+</body>
 </html>
->>>>>>> feature-branch
+
